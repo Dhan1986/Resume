@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-panel {
+    width: 35%;
+    padding: 20px;
+    padding-top: 20px;
+    background-color: #e9ecef;
+}
+
+.right-panel {
+    width: 65%;
+    padding: 20px;
+}
+
+header {
+    text-align: left;
+	
+}
+
+h1 {
+    margin: 5px;
+	padding-bottom: 5px;
+    font-size: 28px;
+    color: green;
+	text-align: left;
+}
+
+h2 {
+    border-bottom: 2px solid green;
+    padding-bottom: 5px;
+    color: green;
+}
+
+h3 {
+    margin: 0;
+    color: orange;
+}
+
+.summary, .experience, .education, .skills {
+    margin-bottom: 20px;
+}
+
+ul {
+    
+	list-style-type: square;
+    padding: 0px;
+	font-size: 15px;
+}
+
+.job {
+    margin-bottom: 15px;
+}
+
+.job p {
+    margin: 0px 0;
+}
+p{ font-size:15px;
+padding: 0px;
+margin: 0px;}
